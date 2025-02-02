@@ -1,0 +1,25 @@
+{
+    "task_analyzer": {
+        "model": "microsoft/phi-2",
+        "max_length": 200,
+        "temperature": 0.7,
+        "do_sample": true
+    },
+    "specialized_models": {
+        "process_analysis": {
+            "model": "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
+            "description": "Process breakdown and analysis",
+            "size": "1.1B"
+        },
+        "domain_specific": {
+            "model": "facebook/opt-350m",
+            "description": "Domain-specific task execution",
+            "size": "350M"
+        },
+        "output_generation": {
+            "model": "distilbert-base-uncased",
+            "description": "Task-specific output generation",
+            "size": "66M"
+        }
+    }
+}
