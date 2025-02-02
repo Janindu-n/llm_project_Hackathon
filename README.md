@@ -5,6 +5,9 @@ Website (Wireframe): https://live-puma.10web.me/
 
 # optimAIze
 
+
+![optimAIze Logo](./assets/optimAIze.png "OptimAIze Logo")
+
 optimAIze is a plug-and-play AI platform designed to help businesses decompose their core services into specific, manageable subprocesses and recommend specialized, lightweight language models (LLMs) for each subtask. The system is ideal for small businesses looking for a cost-effective and privacy-preserving solution to automate operations like email marketing, contract drafting, analytical report generation, and more.
 
 ## Features
